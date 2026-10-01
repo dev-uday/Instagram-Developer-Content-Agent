@@ -1,0 +1,29 @@
+{
+  "name": "instagram-developer-content-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI agent that researches GitHub repositories, generates Instagram developer content & carousel visuals, manages publishing policies, and handles engagement.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "test": "npm run test --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-uday/Instagram-Developer-Content-Agent.git"
+  },
+  "keywords": [
+    "instagram",
+    "github",
+    "developer-content",
+    "ai-agent",
+    "meta-api"
+  ],
+  "author": "",
+  "license": "MIT"
+}
